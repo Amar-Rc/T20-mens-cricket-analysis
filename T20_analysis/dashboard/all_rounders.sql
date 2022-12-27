@@ -1,5 +1,5 @@
 select name, team, batting_style, bowling_style, total_innings_batted, total_runs, batting_average, strike_rate, total_innings_bowled, balls_bowled, wickets, bowling_economy, bowling_strike_rate, maidens
-from cricket_measures
+from T20_ANALYSIS.PRESENTATION.CRICKET_MEASURES
 where batting_average > 15
 and strike_rate > 140
 and total_innings_batted > 2

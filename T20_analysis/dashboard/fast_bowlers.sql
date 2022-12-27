@@ -1,5 +1,5 @@
 select name, team, bowling_style, total_innings_bowled, balls_bowled, runs_conceded, wickets, bowling_economy, bowling_average, bowling_strike_rate, "DOT_BALL%", maidens
-from cricket_measures
+from T20_ANALYSIS.PRESENTATION.CRICKET_MEASURES
 where total_innings_bowled > 4
 and bowling_economy < 7
 and bowling_strike_rate < 16
